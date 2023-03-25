@@ -1,9 +1,7 @@
 {
   "current": {
-    "button_primary_hero_color": "#121212",
-    "button_secondary_hero_color": "#fa6d12",
     "colors_solid_button_labels": "#ffffff",
-    "colors_accent_1": "#fa6d12",
+    "colors_accent_1": "#121212",
     "gradient_accent_1": "",
     "colors_accent_2": "#334fb4",
     "gradient_accent_2": "",
@@ -11,15 +9,15 @@
     "colors_outline_button_labels": "#121212",
     "colors_background_1": "#ffffff",
     "gradient_background_1": "",
-    "colors_background_2": "#cecece",
+    "colors_background_2": "#f3f3f3",
     "gradient_background_2": "",
-    "type_header_font": "helvetica_n4",
+    "type_header_font": "assistant_n4",
     "heading_scale": 100,
-    "type_body_font": "helvetica_n4",
+    "type_body_font": "assistant_n4",
     "body_scale": 100,
     "page_width": 1200,
     "spacing_sections": 0,
-    "spacing_grid_horizontal": 24,
+    "spacing_grid_horizontal": 8,
     "spacing_grid_vertical": 8,
     "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
@@ -35,7 +33,7 @@
     "variant_pills_shadow_horizontal_offset": 0,
     "variant_pills_shadow_vertical_offset": 4,
     "variant_pills_shadow_blur": 5,
-    "inputs_border_thickness": 3,
+    "inputs_border_thickness": 1,
     "inputs_border_opacity": 55,
     "inputs_radius": 0,
     "inputs_shadow_opacity": 0,
@@ -45,11 +43,11 @@
     "card_style": "standard",
     "card_image_padding": 0,
     "card_text_alignment": "left",
-    "card_color_scheme": "background-1",
+    "card_color_scheme": "background-2",
     "card_border_thickness": 0,
-    "card_border_opacity": 50,
+    "card_border_opacity": 10,
     "card_corner_radius": 0,
-    "card_shadow_opacity": 5,
+    "card_shadow_opacity": 0,
     "card_shadow_horizontal_offset": 0,
     "card_shadow_vertical_offset": 4,
     "card_shadow_blur": 5,
@@ -80,16 +78,10 @@
     "drawer_shadow_horizontal_offset": 0,
     "drawer_shadow_vertical_offset": 4,
     "drawer_shadow_blur": 5,
-    "badge_position": "top left",
+    "badge_position": "bottom left",
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
-    "online-badge-copy": "Buy Online",
-    "custom_badge_color_scheme": "#a4b7fb",
-    "custom_badge_text_color": "#ffffff",
-    "instore-badge-copy": "",
-    "in_store_badge_color_scheme": "#f5f5f5",
-    "in_store_badge_text_color": "#121212",
     "accent_icons": "text",
     "social_twitter_link": "",
     "social_facebook_link": "",
@@ -103,28 +95,22 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
-    "favicon": "shopify:\/\/shop_images\/favicon2.png",
-    "badge_image": "shopify:\/\/shop_images\/badge_luxury_home_good.png",
-    "badge_image_two": "shopify:\/\/shop_images\/purple_badge.png",
-    "badge_image_three": "shopify:\/\/shop_images\/blue_badge.png",
     "currency_code_enabled": true,
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
-          "f7f0086d-bebe-4fba-b086-a66b296eabaf": {
+          "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "Ask about design consultations to help you find the perfect pieces for your home.",
-              "is_red": false,
+              "text": "Welcome to our store",
               "color_scheme": "background-1",
               "link": ""
             }
           }
         },
         "block_order": [
-          "f7f0086d-bebe-4fba-b086-a66b296eabaf"
+          "announcement-bar-0"
         ],
         "settings": {
         }
@@ -133,12 +119,9 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/logo_black_c48af3d4-0f71-4d3e-9848-8860d3b0f539.png",
-          "logo_width": 70,
+          "logo_width": 90,
           "logo_position": "middle-left",
           "menu": "main-menu",
-          "online_menu": "online-main-menu",
-          "menu_type_desktop": "dropdown",
           "show_line_separator": true,
           "enable_sticky_header": true,
           "margin_bottom": 0
@@ -164,8 +147,8 @@
           "footer-2": {
             "type": "text",
             "settings": {
-              "heading": "Address",
-              "subtext": "<p>1644 Superior Ave<\/p><p>Costa Mesa, CA, 92627<\/p>"
+              "heading": "Our mission",
+              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
             }
           }
         },
@@ -181,7 +164,7 @@
           "show_social": true,
           "enable_country_selector": false,
           "enable_language_selector": false,
-          "payment_enable": false,
+          "payment_enable": true,
           "margin_top": 48,
           "padding_top": 36,
           "padding_bottom": 36
@@ -199,81 +182,8 @@
         "settings": {
           "color_scheme": "background-1"
         }
-      },
-      "flwr-simple-footer": {
-        "type": "flwr-simple-footer",
-        "blocks": {
-          "a03e4c80-c9c8-48c1-892a-3be3014f7e53": {
-            "type": "text",
-            "settings": {
-              "flwr_footer_block_header": "ADDRESS",
-              "flwr_footer_block_description": "1644 Superior Ave <br> Costa Mesa, CA, 92627",
-              "flwr_footer_block_description_2": "",
-              "flwr_footer_block_description_3": "",
-              "flwr_footer_block_description_4": "",
-              "flwr_footer_block_description_5": ""
-            }
-          },
-          "dc56bd29-c304-4747-ab22-d076b9706e20": {
-            "type": "text",
-            "settings": {
-              "flwr_footer_block_header": "CONTACT INFO",
-              "flwr_footer_block_description": "T: (949) 515-9484 <br> Mail:  <a href=\"mailto:info@htgtfurniture.com\">info@htgtfurniture.com<\/a>",
-              "flwr_footer_block_description_2": "",
-              "flwr_footer_block_description_3": "",
-              "flwr_footer_block_description_4": "",
-              "flwr_footer_block_description_5": ""
-            }
-          },
-          "5909b695-48ce-426b-a2de-c057415c8bc6": {
-            "type": "text",
-            "settings": {
-              "flwr_footer_block_header": "STORE HOURS",
-              "flwr_footer_block_description": "Mon-Fr: 11:00-4:00",
-              "flwr_footer_block_description_2": "",
-              "flwr_footer_block_description_3": "",
-              "flwr_footer_block_description_4": "",
-              "flwr_footer_block_description_5": ""
-            }
-          },
-          "cfa848f9-e9b7-4297-a5bd-d5841401c4ed": {
-            "type": "text",
-            "settings": {
-              "flwr_footer_block_header": "POLICIES",
-              "flwr_footer_block_description": "<a class=\"footer_link_policy\" href=\"https:\/\/htgtfurniture.com\/pages\/terms-of-service\">Terms of Service<\/a>",
-              "flwr_footer_block_description_2": "<a class=\"footer_link_policy\" href=\"https:\/\/htgtfurniture.com\/pages\/on-line-return-refund-policy\">Returns\/Refunds<\/a>",
-              "flwr_footer_block_description_3": "<a class=\"footer_link_policy\" href=\"https:\/\/htgtfurniture.com\/pages\/shipments\">\nShipments<\/a>",
-              "flwr_footer_block_description_4": "",
-              "flwr_footer_block_description_5": ""
-            }
-          },
-          "07c49657-5ee2-45dc-a0e9-faf81ed3a152": {
-            "type": "text",
-            "settings": {
-              "flwr_footer_block_header": "",
-              "flwr_footer_block_description": "<a class=\"footer_link_policy\" href=\"https:\/\/htgtfurniture.com\/pages\/privacy-policy\">Privacy<\/a>",
-              "flwr_footer_block_description_2": "<a class=\"footer_link_policy\" href=\"https:\/\/htgtfurniture.com\/pages\/ccpa-opt-out\">CCPA<\/a>",
-              "flwr_footer_block_description_3": "<a class=\"footer_link_policy\" href=\"https:\/\/htgtfurniture.com\/pages\/accessability\">Accessability<\/a>",
-              "flwr_footer_block_description_4": "",
-              "flwr_footer_block_description_5": ""
-            }
-          }
-        },
-        "block_order": [
-          "a03e4c80-c9c8-48c1-892a-3be3014f7e53",
-          "dc56bd29-c304-4747-ab22-d076b9706e20",
-          "5909b695-48ce-426b-a2de-c057415c8bc6",
-          "cfa848f9-e9b7-4297-a5bd-d5841401c4ed",
-          "07c49657-5ee2-45dc-a0e9-faf81ed3a152"
-        ],
-        "settings": {
-          "flwr_footer_header": "FOOTER"
-        }
       }
-    },
-    "content_for_index": [
-
-    ]
+    }
   },
   "presets": {
     "Default": {
