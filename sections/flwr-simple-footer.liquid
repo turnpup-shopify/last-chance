@@ -1,10 +1,10 @@
 <div class="flwr_outer_footer page-width">
-    <div class="flwr_inner_footer">
       {% if section.settings.logo != blank %}
         <a href="/">
-          <img lazy src="{{ block.settings.image | image_url: width: 200 }}">
+          <img src="{{ section.settings.logo | image_url: width: 200 }}" width="200" height="200">
         </a>
       {% endif %}
+    <div class="flwr_inner_footer">      
         {% for block in section.blocks %} 
             {% assign current_match = block.settings.flwr_footer_block_header | default: "none" %}
             {% if current_match != last_match %} 
