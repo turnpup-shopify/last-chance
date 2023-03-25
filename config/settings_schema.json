@@ -25,6 +25,77 @@
         "id": "button_secondary_hero_color",
         "default": "#fa6d12",
         "label": "Secondary Button Hero Color"
+      },
+      {
+        "type": "header",
+        "content": "other buttons in multicolumn below blog"
+      },
+      {
+        "type": "text",
+        "id": "button_padding",
+        "label": "Button Padding",
+        "default": "10px 20px"
+    },
+    {
+        "type": "text",
+        "id": "hero_button_font_family",
+        "label": "Button Font Family",
+        "default": "'Helvetica Neue'"
+      },
+      {
+        "type": "text",
+        "id": "hero_button_font_size",
+        "label": "Button Font Size",
+        "default": "18px"
+      }, 
+      {
+        "type": "text",
+        "id": "hero_button_font_weight",
+        "label": "Button Font Weight",
+        "default": "400"
+      },        
+      {
+          "type": "text",
+          "id": "button_border_radius",
+          "label": "Button Border Radius",
+          "default": "0px",
+          "info": "0px would be square corners, 4px would be slightly rounded, 20px would be a lot more rounded."
+      },
+      {
+        "type": "color",
+        "id": "button_border_color",
+        "label": "Button Border",
+        "default": "#000000"
+      },
+      {
+        "type": "color",
+        "id": "button_background_color",
+        "label": "Button Background Color",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "button_text_color",
+        "label": "Button Text Color",
+        "default": "#000000"
+      },
+      {
+        "type": "color",
+        "id": "button_border_color_hover",
+        "label": "HOVER: Button Border/Text Color",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "button_background_color_hover",
+        "label": "HOVER: Button Background Color",
+        "default": "#000000"
+      },
+      {
+          "type": "color",
+          "id": "button_text_color_hover",
+          "label": "HOVER: Button Text Color",
+          "default": "#ffffff"
       }
     ]
   },
