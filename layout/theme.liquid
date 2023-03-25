@@ -20,16 +20,46 @@
       {{ page_title }}
       {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
       {%- if current_page != 1 %} &ndash; Page {{ current_page }}{% endif -%}
-      {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}
+      {% comment %}{%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}{% endcomment %}
     </title>
 
     {% if page_description %}
       <meta name="description" content="{{ page_description | escape }}">
     {% endif %}
+    
+    <!--  custom fonts    -->
+    <link rel="stylesheet" href="https://use.typekit.net/tvm5end.css">
 
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5X5C3NL');</script>
+    <!-- End Google Tag Manager -->
+    
+    <!--  CUSTOM GOOGLE CONSOLE OWNERSHIP    -->
+    <meta name="google-site-verification" content="kBRT5hMFDvUFScDV7558k2Lr6xl30F05uqbxOE9e0yw" />
+
+    <!--  GOOGLE ANALYTICS OLD UNIVERSAL ANALYTICS    -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123748118-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-123748118-1');
+    </script>
+    
+    
+
+    
     {% render 'meta-tags' %}
 
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'flwr.js' | asset_url }}" defer="defer"></script>
     {{ content_for_header }}
 
     {%- liquid
@@ -46,6 +76,9 @@
       {{ settings.type_header_font | font_face: font_display: 'swap' }}
 
       :root {
+        --custom-button-color-primary: {{ settings.button_primary_hero_color }};
+        --custom-button-color-secondary: {{ settings.button_secondary_hero_color }};
+    
         --font-body-family: {{ settings.type_body_font.family }}, {{ settings.type_body_font.fallback_families }};
         --font-body-style: {{ settings.type_body_font.style }};
         --font-body-weight: {{ settings.type_body_font.weight }};
@@ -191,6 +224,7 @@
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
+    {{ 'flwr.css' | asset_url | stylesheet_tag }}
 
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
@@ -208,9 +242,31 @@
       document.documentElement.classList.add('shopify-design-mode');
     }
     </script>
+
+    <!-- START FLWR CUSTOM -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.css"/>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick-theme.css"/>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.min.js"></script>
+    <!-- END FLWR CUSTOM -->
   </head>
+  
+
 
   <body class="gradient">
+    {%- if template == 'collection.home-accessories' -%}    
+<!--     	<img class="design_badge" src="{{ settings.badge_image | image_url }}" width="100px" height="100px" style="position: absolute;top: 150px; right: 100px;" >
+        <img class="design_badge_two" src="{{ settings.badge_image_three | image_url }}" width="140px" height="140px" style="position: absolute;top: 230px; right: 50px;" > -->
+        <img class="design_badge_three" src="{{ settings.badge_image | image_url }}" >
+    {%- endif -%}
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5X5C3NL"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
     </a>
@@ -220,8 +276,16 @@
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
     </main>
+    
+    {% case template %}
+      {% when 'collection.home-accessories' %}
+      {% when 'product.online' %}
+      {% else %}
+            <a href="tel:1-949-279-5791"><div class="floating_phone">✆</div></a>
+    {% endcase %}
+    
 
-    {% section 'footer' %}
+    {% section 'flwr-simple-footer' %}
 
     <ul hidden>
       <li id="a11y-refresh-page-message">{{ 'accessibility.refresh_page' | t }}</li>

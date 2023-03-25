@@ -23,9 +23,15 @@
   {%- endstyle -%}
 {%- endif -%}
 
+
 {%- style -%}
   #Banner-{{ section.id }}::after {
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
+  }
+  @media screen and (max-width: 749px) {
+    #Banner-{{ section.id }}::after {
+      opacity: 0;
+    }
   }
 {%- endstyle -%}
 
@@ -45,7 +51,7 @@
           {{ section.settings.image | image_url }} {{ section.settings.image.width }}w"
         sizes="{% if section.settings.image_2 != blank and section.settings.stack_images_on_mobile %}(min-width: 750px) 50vw, 100vw{% elsif section.settings.image_2 != blank %}50vw{% else %}100vw{% endif %}"
         src="{{ section.settings.image | image_url: width: 1500 }}"
-        loading="lazy"
+        {%- if section.settings.dont_lazy_load != true -%} loading="lazy" {%- endif -%}
         alt="{{ section.settings.image.alt | escape }}"
         width="{{ section.settings.image.width }}"
         height="{{ section.settings.image.width | divided_by: section.settings.image.aspect_ratio }}"
@@ -71,7 +77,7 @@
           {{ section.settings.image_2 | image_url }} {{ section.settings.image_2.width }}w"
         sizes="{% if section.settings.image != blank and section.settings.stack_images_on_mobile %}(min-width: 750px) 50vw, 100vw{% elsif section.settings.image != blank %}50vw{% else %}100vw{% endif %}"
         src="{{ section.settings.image_2 | image_url: width: 1500 }}"
-        loading="lazy"
+        {%- if section.settings.dont_lazy_load != true -%} loading="lazy" {%- endif -%}
         alt="{{ section.settings.image_2.alt | escape }}"
         width="{{ section.settings.image_2.width }}"
         height="{{ section.settings.image_2.width | divided_by: section.settings.image_2.aspect_ratio }}"
@@ -79,14 +85,67 @@
       >
     </div>
   {%- endif -%}
+  
+  <!--  ADDING MOBILE BELOW HERE  -->
+  {%- if section.settings.mobile_image != blank -%}
+    <div class="mobile banner__media media{% if section.settings.mobile_image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}">
+      <img
+        srcset="{%- if section.settings.mobile_image.width >= 375 -%}{{ section.settings.mobile_image | image_url: width: 375 }} 375w,{%- endif -%}
+          {%- if section.settings.mobile_image.width >= 550 -%}{{ section.settings.mobile_image | image_url: width: 550 }} 550w,{%- endif -%}
+          {%- if section.settings.mobile_image.width >= 750 -%}{{ section.settings.mobile_image | image_url: width: 750 }} 750w,{%- endif -%}
+          {%- if section.settings.mobile_image.width >= 1100 -%}{{ section.settings.mobile_image | image_url: width: 1100 }} 1100w,{%- endif -%}
+          {%- if section.settings.mobile_image.width >= 1500 -%}{{ section.settings.mobile_image | image_url: width: 1500 }} 1500w,{%- endif -%}
+          {%- if section.settings.mobile_image.width >= 1780 -%}{{ section.settings.mobile_image | image_url: width: 1780 }} 1780w,{%- endif -%}
+          {%- if section.settings.mobile_image.width >= 2000 -%}{{ section.settings.mobile_image | image_url: width: 2000 }} 2000w,{%- endif -%}
+          {%- if section.settings.mobile_image.width >= 3000 -%}{{ section.settings.mobile_image | image_url: width: 3000 }} 3000w,{%- endif -%}
+          {%- if section.settings.mobile_image.width >= 3840 -%}{{ section.settings.mobile_image | image_url: width: 3840 }} 3840w,{%- endif -%}
+          {{ section.settings.mobile_image | image_url }} {{ section.settings.mobile_image.width }}w"
+        sizes="{% if section.settings.image_2 != blank and section.settings.stack_images_on_mobile %}(min-width: 750px) 50vw, 100vw{% elsif section.settings.image_2 != blank %}50vw{% else %}100vw{% endif %}"
+        src="{{ section.settings.mobile_image | image_url: width: 1500 }}"
+        {%- if section.settings.dont_lazy_load != true -%} loading="lazy" {%- endif -%}
+        alt="{{ section.settings.mobile_image.alt | escape }}"
+        width="{{ section.settings.mobile_image.width }}"
+        height="{{ section.settings.mobile_image.width | divided_by: section.settings.mobile_image.aspect_ratio }}"
+        {% if section.settings.image_2 != blank %}class="banner__media-image-half"{% endif %}
+      >
+    </div>
+  {%- elsif section.settings.image_2 == blank -%}
+    <div class="mobile banner__media media{% if section.settings.mobile_image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}">
+      {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
+    </div>
+  {%- endif -%}
+  {%- if section.settings.image_2 != blank -%}
+    <div class="mobile banner__media media{% if section.settings.mobile_image != blank %} banner__media-half{% endif %}">
+      <img
+        srcset="{%- if section.settings.image_2.width >= 375 -%}{{ section.settings.image_2 | image_url: width: 375 }} 375w,{%- endif -%}
+          {%- if section.settings.image_2.width >= 750 -%}{{ section.settings.image_2 | image_url: width: 750 }} 750w,{%- endif -%}
+          {%- if section.settings.image_2.width >= 1100 -%}{{ section.settings.image_2 | image_url: width: 1100 }} 1100w,{%- endif -%}
+          {%- if section.settings.image_2.width >= 1500 -%}{{ section.settings.image_2 | image_url: width: 1500 }} 1500w,{%- endif -%}
+          {%- if section.settings.image_2.width >= 1780 -%}{{ section.settings.image_2 | image_url: width: 1780 }} 1780w,{%- endif -%}
+          {%- if section.settings.image_2.width >= 2000 -%}{{ section.settings.image_2 | image_url: width: 2000 }} 2000w,{%- endif -%}
+          {%- if section.settings.image_2.width >= 3000 -%}{{ section.settings.image_2 | image_url: width: 3000 }} 3000w,{%- endif -%}
+          {%- if section.settings.image_2.width >= 3840 -%}{{ section.settings.image_2 | image_url: width: 3840 }} 3840w,{%- endif -%}
+          {{ section.settings.image_2 | image_url }} {{ section.settings.image_2.width }}w"
+        sizes="{% if section.settings.mobile_image != blank and section.settings.stack_images_on_mobile %}(min-width: 750px) 50vw, 100vw{% elsif section.settings.mobile_image != blank %}50vw{% else %}100vw{% endif %}"
+        src="{{ section.settings.image_2 | image_url: width: 1500 }}"
+        {%- if section.settings.dont_lazy_load != true -%} loading="lazy" {%- endif -%}
+        alt="{{ section.settings.image_2.alt | escape }}"
+        width="{{ section.settings.image_2.width }}"
+        height="{{ section.settings.image_2.width | divided_by: section.settings.image_2.aspect_ratio }}"
+        {% if section.settings.mobile_image != blank %}class="banner__media-image-half"{% endif %}
+      >
+    </div>
+  {%- endif -%}
+  <!--  DONE ADDING MOBILE ABOVE HERE  -->
+  
   <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width">
     <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient">
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'heading' -%}
-            <h2 class="banner__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+            <h1 class="banner__heading {{ block.settings.heading_size }}" style="font-weight: 800;" {{ block.shopify_attributes }}>
               <span>{{ block.settings.heading | escape }}</span>
-            </h2>
+            </h1>
           {%- when 'text' -%}
             <div class="banner__text {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
               <span>{{ block.settings.text | escape }}</span>
@@ -94,10 +153,10 @@
           {%- when 'buttons' -%}
             <div class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}" {{ block.shopify_attributes }}>
               {%- if block.settings.button_label_1 != blank -%}
-                <a{% if block.settings.button_link_1 == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link_1 }}"{% endif %} class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}">{{ block.settings.button_label_1 | escape }}</a>
+                <a{% if block.settings.button_link_1 == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link_1 }}"{% endif %} class="button{% if block.settings.button_style_secondary_1 %} flwr_button is_second{% else %} flwr_button is_first{% endif %}">{{ block.settings.button_label_1 | escape }}</a>
               {%- endif -%}
               {%- if block.settings.button_label_2 != blank -%}
-                <a{% if block.settings.button_link_2 == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link_2 }}"{% endif %} class="button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}">{{ block.settings.button_label_2 | escape }}</a>
+                <a{% if block.settings.button_link_2 == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link_2 }}"{% endif %} class="button{% if block.settings.button_style_secondary_2 %} flwr_button is_second{% else %} flwr_button is_first{% endif %}">{{ block.settings.button_label_2 | escape }}</a>
               {%- endif -%}
 
             </div>
@@ -106,6 +165,58 @@
     </div>
   </div>
 </div>
+
+<style>
+  .flwr_button.is_first, .ooo-instagram-footer__button {
+    border-color: {{ settings.button_primary_hero_color }} !important;
+    box-shadow: 8px 8px 0 0 {{ settings.button_primary_hero_color }} !important;
+    color: {{ settings.button_primary_hero_color }} !important;
+    background: white !important;
+    position: relative;
+  }
+  .flwr_button.is_second {
+    border-color: {{ settings.button_secondary_hero_color }};
+    box-shadow: 8px 8px 0 0 {{ settings.button_secondary_hero_color }};;
+    color: {{ settings.button_secondary_hero_color }};;
+  }
+  .flwr_button.is_first:hover, .flwr_button.is_second:hover, .ooo-instagram-footer__button:hover {
+    box-shadow: 0 0 0 0 #2d2c2c !important;
+    top: 0 !important;
+    left: 0 !important;
+  }
+  .flwr_button:not(:first-child) {
+   margin-left: 12px; 
+  }
+  .flwr_button, .ooo-instagram-footer__button {
+    top: -8px;
+    left: -8px; 
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px solid #fb263b;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 8px 8px 0 0 #fb263b;
+    -webkit-transition: .2s,box-shadow .2s;
+    transition: .2s,box-shadow .2s;
+  }
+  .button::after, .button::before, .button:hover::before, .button:hover::after {
+    box-shadow: 0 0 0 0 #2d2c2c !important;
+    border: none !important;
+  }
+  @media screen and (max-width: 749px) {
+    .flwr_button:not(:first-child) {
+      margin-left: 0px; 
+      margin-top: 12px;
+    {
+  }
+</style>
 
 {% schema %}
 {
@@ -120,8 +231,18 @@
     },
     {
       "type": "image_picker",
+      "id": "mobile_image",
+      "label": "Mobile Image"
+    },
+    {
+      "type": "image_picker",
       "id": "image_2",
       "label": "t:sections.image-banner.settings.image_2.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "dont_lazy_load",  
+      "label": "Is Homepage Hero Image?"  
     },
     {
       "type": "range",

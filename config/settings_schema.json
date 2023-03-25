@@ -8,6 +8,27 @@
     "theme_support_url": "https:\/\/support.shopify.com\/"
   },
   {
+    "name": "custom settings",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Custom Settings"
+      },
+      {
+        "type": "color",
+        "id": "button_primary_hero_color",
+        "default": "#334FB4",
+        "label": "Primary Button Hero Color"
+      },
+      {
+        "type": "color",
+        "id": "button_secondary_hero_color",
+        "default": "#fa6d12",
+        "label": "Secondary Button Hero Color"
+      }
+    ]
+  },
+  {
     "name": "t:settings_schema.colors.name",
     "settings": [
       {
@@ -990,6 +1011,44 @@
         ],
         "default": "inverse",
         "label": "t:settings_schema.badges.settings.sold_out_badge_color_scheme.label"
+      },
+      {
+        "type": "text",
+        "id": "online-badge-copy",
+        "default": "Buy Online",
+        "label": "Online Badge Copy",
+        "info": "Leave blank if you don't want anything to show"
+      },
+      {
+        "type": "color",
+        "id": "custom_badge_color_scheme",
+        "default": "#FA6D12",
+        "label": "Custom Badge Background Color"
+      },
+      {
+        "type": "color",
+        "id": "custom_badge_text_color",
+        "default": "#ffffff",
+        "label": "Custom Badge Text Color"
+      },
+      {
+        "type": "text",
+        "id": "instore-badge-copy",
+        "default": "In-Store",
+        "label": "In-Store Badge Copy",
+        "info": "Leave blank if you don't want anything to show"
+      },
+      {
+        "type": "color",
+        "id": "in_store_badge_color_scheme",
+        "default": "#334FB4",
+        "label": "In-Store Badge Background Color"
+      },
+      {
+        "type": "color",
+        "id": "in_store_badge_text_color",
+        "default": "#ffffff",
+        "label": "In-Store Badge Text Color"
       }
     ]
   },
@@ -1122,6 +1181,26 @@
         "id": "favicon",
         "label": "t:settings_schema.favicon.settings.favicon.label",
         "info": "t:settings_schema.favicon.settings.favicon.info"
+      }
+    ]
+  },
+  {
+    "name": "Badge Picker",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "badge_image",
+        "label": "Badge"
+      },
+      {
+        "type": "image_picker",
+        "id": "badge_image_two",
+        "label": "Badge Two"
+      },
+      {
+        "type": "image_picker",
+        "id": "badge_image_three",
+        "label": "Badge Three"
       }
     ]
   },

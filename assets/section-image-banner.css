@@ -148,6 +148,14 @@
   top: 0;
   width: 100%;
 }
+.banner__media.mobile {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  display: none;
+}
 
 .banner__media-half {
   width: 50%;
@@ -165,6 +173,14 @@
 
   .banner--stacked .banner__media-half + .banner__media-half {
     order: 1;
+  }
+  
+  .banner__media {
+    display: none;
+  }
+  .banner__media.mobile {    
+    display: block;
+    border-radius: 50% 50% 0 0;
   }
 }
 
@@ -425,7 +441,7 @@
 @media screen and (min-width: 750px) {
   .banner--content-align-center .banner__buttons--multiple > * {
     flex-grow: 1;
-    min-width: 22rem;
+/*     min-width: 22rem; */
   }
 
   .banner--content-align-right .banner__buttons--multiple {
