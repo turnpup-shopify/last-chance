@@ -462,7 +462,7 @@
         "margintop": 80,
         "marginbottom": 60,
         "alignment": "left",
-        "turnpup_bottom_border_color": "rgba(0,0,0,0)",
+        "turnpup_bottom_border_color": "#121212",
         "mobile_font_size": "12px"
       }
     },
