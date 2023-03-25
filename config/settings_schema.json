@@ -96,6 +96,24 @@
           "id": "button_text_color_hover",
           "label": "HOVER: Button Text Color",
           "default": "#ffffff"
+      },
+      {
+          "type": "text",
+          "id": "hero_button_padding",
+          "label": "Hero Button Padding",
+          "default": "20px 10px 20px"
+      },
+      {
+          "type": "text",
+          "id": "hero_button_font_family",
+          "label": "Hero Button Font Family",
+          "default": "Helvetica Neue"
+      },
+      {
+          "type": "text",
+          "id": "hero_button_font_size",
+          "label": "Hero Button Font Size",
+          "default": "18px"
       }
     ]
   },
