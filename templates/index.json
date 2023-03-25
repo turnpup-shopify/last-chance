@@ -604,7 +604,7 @@
     "bfdff81e-e559-4632-99fc-f4cd14c6b2b8": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"page-width\"><h2 style=\"font-size: 24px; font-family: 'Helvetica Neue';font-weight: 400;\"> FIND NEWEST ARRIVALS ON INSTAGRAM - @HTGTHOME <\/h2><\/div>",
+        "custom_liquid": "<div class=\"page-width\"><h2 style=\"font-size: 24px; font-family: 'Helvetica Neue';font-weight: 400;\"> @HTGTHOME <\/h2><\/div>",
         "color_scheme": "background-1",
         "padding_top": 12,
         "padding_bottom": 0
