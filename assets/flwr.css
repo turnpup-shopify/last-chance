@@ -6,10 +6,10 @@ body {
 }
 
 .flwr_multicolumn_hero_button {
-  padding: settings.button_padding }};
-  border: 1px solid settings.button_border_color }};
-  color: settings.button_text_color }};
-  background: settings.button_background_color }};
+  padding: {{ settings.button_padding }};
+  border: 1px solid {{ settings.button_border_color }};
+  color: {{ settings.button_text_color }};
+  background: {{ settings.button_background_color }};
   border-radius: {{ settings.button_border_radius }};
   font-family: {{ settings.hero_button_font_family }};
   font-size: {{ settings.hero_button_font_size }};
