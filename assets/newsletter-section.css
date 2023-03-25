@@ -28,7 +28,7 @@
 }
 
 .newsletter__wrapper p {
-  margin: 0.5em;
+  /* margin: 0.5em; */
 }
 
 .newsletter__wrapper > * + .newsletter-form {
