@@ -2,7 +2,7 @@
       {% if section.settings.logo != blank %}
         <div class="logo_footer">
           <a href="/">
-            <img src="{{ section.settings.logo}}" width="200" height="200">
+            <img src="{{ section.settings.logo | image_url}}" width="200" height="200">
           </a>
         </div>
       {% endif %}
