@@ -167,8 +167,8 @@ in theme.liquid head
     font-size: 32px;
     text-align: center;
     margin: 0 auto;
-    font-family: {{ section.settings.quote_font_family }};
-    font-weight: 800;
+    font-family: {{ section.settings.quote_font_family }} !important;
+    font-weight: 500;
     line-height:  1.1;
     color:  {{ section.settings.quote_color }};
     margin-bottom: 20px;
@@ -180,7 +180,7 @@ in theme.liquid head
     margin: 0 auto;
     font-family: 'p22-mackinac-pro', serif;
     font-weight: 400;
-    font-family: {{ section.settings.who_said_it_font_family }};
+    font-family: {{ section.settings.who_said_it_font_family }} !important;
     opacity: 0.7;
 ;
 
