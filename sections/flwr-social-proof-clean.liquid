@@ -151,12 +151,14 @@ in theme.liquid head
 </div>
 
 <style>
+  .social-proof {
+    background-color: {{ section.settings.module_background_color }};
+  }
   .quote-slider {
     padding-left: 5rem;
     padding-right: 5rem;
     padding-top: 6rem;
-    padding-bottom: 6rem;
-    background-color: {{ section.settings.module_background_color }};
+    padding-bottom: 6rem;    
   }
   .actual-quote {
     {% comment %} max-width: 64rem; {% endcomment %}
