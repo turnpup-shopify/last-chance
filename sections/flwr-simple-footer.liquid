@@ -1,6 +1,6 @@
 <div class="flwr_outer_footer page-width">
     <div class="flwr_inner_footer">
-      {% if section.setting.logo != blank %}
+      {% if section.settings.logo != blank %}
         <a href="/">
           <img lazy src="{{ block.settings.image | image_url: width: 200 }}">
         </a>
@@ -53,7 +53,7 @@
 <style>
   .flwr_outer_footer {
     border-top: .1rem solid rgba(var(--color-foreground),.08);
-    margin: {{ section.settings.padding_top }} 0 {{ section.settings.padding_top }};
+    margin: {{ section.settings.padding_top }}px 0 {{ section.settings.padding_top }}px;
   }
   .flwr_inner_footer {
     display: flex;
