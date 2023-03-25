@@ -1,0 +1,73 @@
+{
+  "sections": {
+    "1652235319666f1cc2": {
+      "type": "flwr-one-long-sentence",
+      "blocks": {
+        "1652235319804d0a4f-0": {
+          "type": "text",
+          "settings": {
+            "block_text": "SHOP BY COLLECTION",
+            "block_font_size": "36px",
+            "mobile_block_font_size": "24px",
+            "block_font_color": "#121212",
+            "font_family_text": "Alegreya",
+            "font_weight_text": "400",
+            "line_height_text": "1.2",
+            "letter_spacing": "3px",
+            "text_width": "100%",
+            "mobile_text_width": "90%",
+            "text_padding_left": "0px",
+            "text_padding_bottom": "0px",
+            "is_own_line": true,
+            "text_has_wavy_animation": true,
+            "wavy_animation_color": "#f6b700",
+            "underline_animation": false,
+            "underline_animation_color": "#f6b700"
+          }
+        }
+      },
+      "block_order": [
+        "1652235319804d0a4f-0"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_font_size": "11px",
+        "subtitle_font_weight": "300",
+        "subtitle_font_family": "'Karla'",
+        "subtitle_font_color": "#555555",
+        "background_color": "#fa6d12",
+        "background_opacity": "0.1",
+        "max_width": 90,
+        "mobile_max_width": 90,
+        "margintop": 100,
+        "marginbottom": 100,
+        "alignment": "center",
+        "image": "shopify:\/\/shop_images\/C680BFD4-B1E7-4CCF-93A4-584851115622.jpg",
+        "turnpup_bottom_border_color": "rgba(0,0,0,0)",
+        "mobile_font_size": "12px"
+      }
+    },
+    "1652051644df26dda7": {
+      "type": "flwr-collections-all",
+      "settings": {
+        "menu": "main-menu"
+      }
+    },
+    "main": {
+      "type": "main-list-collections",
+      "disabled": true,
+      "settings": {
+        "title": "Collections",
+        "sort": "alphabetical",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "columns_mobile": "2"
+      }
+    }
+  },
+  "order": [
+    "1652235319666f1cc2",
+    "1652051644df26dda7",
+    "main"
+  ]
+}
