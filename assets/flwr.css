@@ -5,6 +5,33 @@ body {
   position: relative
 }
 
+.flwr_multicolumn_hero_button {
+  padding: {{ section.settings.button_padding }};
+  border: 1px solid {{ section.settings.button_border_color }};
+  color: {{ section.settings.button_text_color }};
+  background: {{ section.settings.button_background_color }};
+  border-radius: {{ section.settings.button_border_radius }};
+  font-family: {{ section.settings.hero_button_font_family }};
+  font-size: {{ section.settings.hero_button_font_size }};
+  font-weight: {{ section.settings.hero_button_font_weight }};
+}
+.flwr_multicolumn_hero_button:hover {
+  border: 1px solid {{ section.settings.button_border_color_hover }};
+  color: {{ section.settings.button_text_color_hover }};
+  background: {{ section.settings.button_background_color_hover }};
+}
+.flwr_multicolumn_hero_button.inverse {
+  border: 1px solid {{ section.settings.button_border_color_hover }};
+  color: {{ section.settings.button_text_color_hover }};
+  background: {{ section.settings.button_background_color_hover }};
+}
+.flwr_multicolumn_hero_button.inverse:hover {
+  border: 1px solid {{ section.settings.button_border_color }};
+  color: {{ section.settings.button_text_color }};
+  background: {{ section.settings.button_background_color }};
+}
+
+
 .header {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
