@@ -480,7 +480,7 @@
           "type": "space",
           "settings": {
             "quote_text": "I was drawn here by the large selection of items and it seemed charming and eclectic. Sure enough, I was blown away by the caring nature of the shop owners as well as the unique yet affordable furniture I was able to find here.",
-            "who_said_it": "Leanna"
+            "who_said_it": "LEANNA"
           }
         }
       },
@@ -492,10 +492,10 @@
         "module_background_color": "#dfe6fc",
         "module_accent_color": "#000000",
         "quote_color": "#000000",
-        "dots_unselected_color": "#FFFFFF",
-        "turnpup_bottom_border_color": "#fff",
-        "quote_font_family": "helvetica_n4",
-        "who_said_it_font_family": "helvetica_n7"
+        "dots_unselected_color": "#ffffff",
+        "turnpup_bottom_border_color": "#ffffff",
+        "quote_font_family": "Helvetica Neue",
+        "who_said_it_font_family": "Helvetica Neue"
       }
     },
     "4b5ec4ff-e42f-4095-9b8e-e11e4b0cc0e6": {
