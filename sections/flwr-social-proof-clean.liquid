@@ -130,7 +130,7 @@ in theme.liquid head
   })
 </script>
 
-<div class="social-proof" data-section-id="{{ section.id }}" data-section-type="social-proof-section">
+<div class="social-proof page-width" data-section-id="{{ section.id }}" data-section-type="social-proof-section">
   <div class="quote-slider">
     <div class="actual-quote">
       <svg width="33" height="27" viewBox="0 0 33 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -159,7 +159,7 @@ in theme.liquid head
     background-color: {{ section.settings.module_background_color }};
   }
   .actual-quote {
-    max-width: 64rem;
+    {% comment %} max-width: 64rem; {% endcomment %}
     margin: 0 auto 2rem;
     text-align: left;
   }
