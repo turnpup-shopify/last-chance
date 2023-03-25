@@ -119,8 +119,8 @@
         "show_collection_description": false,
         "show_collection_image": false,
         "color_scheme": "inverse",
-        "background_color": "#333333",
-        "text_color": "#ffffff",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
         "font_size_desktop": "30px",
         "font_size_mobile": "20px"
       }
