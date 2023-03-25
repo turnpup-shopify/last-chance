@@ -98,7 +98,7 @@
     </slider-component>
 
     {%- if section.settings.show_view_all and more_in_collection -%}
-      <div class="center collection__view-all">
+      <div class="center collection__view-all" style="margin: 20px 0">
         <a class="flwr_multicolumn_hero_button" href="{{ section.settings.collection.url }}"
           aria-label="{{ 'sections.featured_collection.view_all_label' | t: collection_name: section.settings.collection.title }}"
           style="width: 200px; margin: 10px auto 0px; padding: 10px 20px;"
