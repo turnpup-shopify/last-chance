@@ -29,11 +29,6 @@
             "text_style": "subtitle"
           }
         },
-        "4ba3d4c2-7659-490c-acfe-cce0cf05f1d7": {
-          "type": "custom_item_number",
-          "settings": {
-          }
-        },
         "description": {
           "type": "description",
           "settings": {
@@ -111,7 +106,6 @@
         "title",
         "variant_picker",
         "caption",
-        "4ba3d4c2-7659-490c-acfe-cce0cf05f1d7",
         "description",
         "price",
         "quantity_selector",
