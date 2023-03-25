@@ -546,7 +546,7 @@
         "title": "TRENDING RUGS",
         "heading_size": "h1",
         "heading_font_size": "24px",
-        "heading_font_family": "'Alegreya'",
+        "heading_font_family": "Helvetica Neue",
         "description": "",
         "show_description": true,
         "description_style": "body",
