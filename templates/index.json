@@ -472,7 +472,7 @@
         "title": "MOST POPULAR ART",
         "heading_size": "h1",
         "heading_font_size": "24px",
-        "heading_font_family": "'Alegreya'",
+        "heading_font_family": "Helvetica Neue",
         "description": "",
         "show_description": false,
         "description_style": "body",
