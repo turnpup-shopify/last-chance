@@ -93,12 +93,14 @@
 
     {%- if more_in_collection -%}
       <div class="center collection__view-all" style="margin: 20px 0">
+        <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="{{ 'general.slider.previous_slide' | t }}" aria-controls="Slider-best-sellers">{% render 'icon-caret' %}</button> 
         <a class="flwr_multicolumn_hero_button" href="https://htgtfurniture.com/collections/best-sellers"
-          aria-label="{{ 'sections.featured_collection.view_all_label' | t: collection_name: collections['best-sellers'].title }}"
-          style="width: 200px; margin: 10px auto 0px; padding: 10px 20px;"
+        aria-label="{{ 'sections.featured_collection.view_all_label' | t: collection_name: collections['best-sellers'].title }}"
+        style="width: 200px; margin: 10px auto 0px; padding: 10px 20px;"
         >
           {{ 'sections.featured_collection.view_all' | t }}
         </a>
+        <button type="button" class="slider-button slider-button--next" name="next" aria-label="{{ 'general.slider.next_slide' | t }}" aria-controls="Slider-best-sellers">{% render 'icon-caret' %}</button>
       </div>
     {%- endif -%}
   </div>
