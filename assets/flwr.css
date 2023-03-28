@@ -14,6 +14,7 @@ body {
   font-family: var(--hero_button_font_family);
   font-size: var(--hero_button_font_size);
   font-weight: var(--hero_button_font_weight);
+  text-decoration: none;
 }
 .flwr_multicolumn_hero_button:hover {
   border: 1px solid var(--button_border_color_hover);
