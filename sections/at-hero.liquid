@@ -302,7 +302,8 @@
       row-gap: var(--grid-mobile-vertical-spacing);
     }
     .grid:last-child {
-      margin-bottom: 0;
+      {% comment %} margin-bottom: 0; {% endcomment %}
+      margin: 0;
     }
     .grid--gapless.grid {
       column-gap: 0;
