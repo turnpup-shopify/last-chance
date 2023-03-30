@@ -321,7 +321,7 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Buy Products Online",
+            "button_label_1": "Buy Online",
             "button_link_1": "shopify:\/\/collections\/online-side-tables",
             "button_style_secondary_1": true,
             "button_label_2": "Get Directions",
