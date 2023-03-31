@@ -209,7 +209,7 @@
           "settings": {
             "image_border_radius": "0px",
             "mobile_image_border_radius": "0px",
-            "title": "AFFORDABLE DESIGNER ART",
+            "title": "Affordable Items for Your Home",
             "title_font_size": "24px",
             "title_font_size_mobile": "24px",
             "title_font_family": "'Helvetica Neue'",
@@ -217,7 +217,7 @@
             "title_line_height": "1.4",
             "title_font_weight": "400",
             "title_margin_top": "8px",
-            "text": "Shop our selection of affordable designer art that ships directly to you.",
+            "text": "Check out our selection of affordable art that ships directly to you.",
             "text_font_size": "30px",
             "text_font_size_mobile": "16px",
             "text_font_family": "'Helvetica Neue'",
@@ -458,9 +458,9 @@
             "text_padding_bottom": "0.6em",
             "is_own_line": true,
             "text_has_wavy_animation": false,
-            "wavy_animation_color": "#F6B700",
+            "wavy_animation_color": "#f6b700",
             "underline_animation": false,
-            "underline_animation_color": "#F6B700"
+            "underline_animation_color": "#f6b700"
           }
         }
       },
