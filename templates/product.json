@@ -134,6 +134,99 @@
         "padding_bottom": 12
       }
     },
+    "af8f0f25-2743-4e77-a7f2-eb92767275a4": {
+      "type": "flwr-one-long-sentence",
+      "blocks": {
+        "0f2abcde-6f59-40b5-bdda-0a271e23d5da": {
+          "type": "text",
+          "settings": {
+            "block_text": "DESIGN CONSULTATIONS",
+            "block_font_size": "24px",
+            "mobile_block_font_size": "24px",
+            "block_font_color": "#121212",
+            "font_family_text": "Helvetica",
+            "font_weight_text": "700",
+            "line_height_text": "1.2",
+            "letter_spacing": "3px",
+            "text_width": "100%",
+            "mobile_text_width": "90%",
+            "text_padding_left": "0px",
+            "text_padding_bottom": "0px",
+            "is_own_line": true,
+            "text_has_wavy_animation": true,
+            "wavy_animation_color": "#F6B700",
+            "underline_animation": false,
+            "underline_animation_color": "#F6B700"
+          }
+        },
+        "template--15355123597519__af8f0f25-2743-4e77-a7f2-eb92767275a4-16802983615025182f-0": {
+          "type": "text",
+          "settings": {
+            "block_text": "We offer personalized service every step of the way, from ordering to delivery. We can help you think through your space, find specific pieces that fit the style of your home, and customize fabrics. We can work off photos and frequently do home visits in newport beach, costa mesa, and irvine.",
+            "block_font_size": "24px",
+            "mobile_block_font_size": "24px",
+            "block_font_color": "#121212",
+            "font_family_text": "Helvetica",
+            "font_weight_text": "400",
+            "line_height_text": "1.2",
+            "letter_spacing": "normal",
+            "text_width": "100%",
+            "mobile_text_width": "90%",
+            "text_padding_left": "0px",
+            "text_padding_bottom": "0px",
+            "is_own_line": true,
+            "text_has_wavy_animation": true,
+            "wavy_animation_color": "#F6B700",
+            "underline_animation": false,
+            "underline_animation_color": "#F6B700"
+          }
+        },
+        "e6c633e2-63ab-4d88-bcea-e9aa7fef2689": {
+          "type": "text",
+          "settings": {
+            "block_text": "(949) 515-9484",
+            "block_font_size": "24px",
+            "mobile_block_font_size": "24px",
+            "block_font_color": "#a4b7fb",
+            "font_family_text": "Helvetica",
+            "font_weight_text": "800",
+            "line_height_text": "1.2",
+            "letter_spacing": "3px",
+            "text_width": "100%",
+            "mobile_text_width": "90%",
+            "text_padding_left": "0px",
+            "text_padding_bottom": "0px",
+            "is_own_line": true,
+            "text_has_wavy_animation": true,
+            "wavy_animation_color": "#F6B700",
+            "underline_animation": true,
+            "underline_animation_color": "#F6B700"
+          }
+        }
+      },
+      "block_order": [
+        "0f2abcde-6f59-40b5-bdda-0a271e23d5da",
+        "template--15355123597519__af8f0f25-2743-4e77-a7f2-eb92767275a4-16802983615025182f-0",
+        "e6c633e2-63ab-4d88-bcea-e9aa7fef2689"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_font_size": "18px",
+        "subtitle_font_weight": "300",
+        "subtitle_font_family": "'Karla'",
+        "subtitle_font_color": "#d8d8d8",
+        "background_color": "#e1e1e1",
+        "background_opacity": "0.2",
+        "max_width": 90,
+        "mobile_max_width": 90,
+        "use_page_width": false,
+        "margintop": 100,
+        "marginbottom": 100,
+        "alignment": "left",
+        "turnpup_bottom_border_color": "#F4B237",
+        "mobile_font_size": "12px"
+      }
+    },
     "image-with-text": {
       "type": "image-with-text",
       "disabled": true,
@@ -234,6 +327,7 @@
   },
   "order": [
     "main",
+    "af8f0f25-2743-4e77-a7f2-eb92767275a4",
     "image-with-text",
     "multicolumn",
     "product-recommendations"
