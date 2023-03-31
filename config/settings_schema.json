@@ -132,7 +132,7 @@
       },
       {
         "type": "text",
-        "id": "mobile_pdp_product_title_size",
+        "id": "mobile_pdp_producte_size",
         "default": "20px",
         "label": "Mobile Product Title Font Size"
       }    
