@@ -118,6 +118,27 @@
     ]
   },
   {
+    "name": "custom pdp settings",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Custom PDP Settings"
+      },
+      {
+        "type": "text",
+        "id": "pdp_product_title_size",
+        "default": "30px",
+        "label": "Desktop Product Title Font Size"
+      },
+      {
+        "type": "text",
+        "id": "mobile_pdp_product_title_size",
+        "default": "20px",
+        "label": "Mobile Product Title Font Size"
+      }    
+    ]
+  },
+  {
     "name": "t:settings_schema.colors.name",
     "settings": [
       {
