@@ -34,6 +34,12 @@
           "settings": {
           }
         },
+        "3537e656-fb4e-46d5-96e7-7e681fba5b76": {
+          "type": "custom_item_number",
+          "settings": {
+            "show_custom_item_number": true
+          }
+        },
         "price": {
           "type": "price",
           "disabled": true,
@@ -107,6 +113,7 @@
         "variant_picker",
         "caption",
         "description",
+        "3537e656-fb4e-46d5-96e7-7e681fba5b76",
         "price",
         "quantity_selector",
         "buy_buttons",
