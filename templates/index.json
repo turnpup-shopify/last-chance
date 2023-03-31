@@ -237,7 +237,7 @@
             "link_label": "Available Online",
             "link": "",
             "is_hero_button": true,
-            "link_label_two": "Shop All",
+            "link_label_two": "All Products",
             "link_two": "shopify:\/\/collections\/all",
             "is_hero_button_two": true,
             "button_is_white_border_two": false,
