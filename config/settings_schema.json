@@ -102,18 +102,6 @@
           "id": "hero_button_padding",
           "label": "Hero Button Padding",
           "default": "20px 10px 20px"
-      },
-      {
-          "type": "text",
-          "id": "hero_button_font_family",
-          "label": "Hero Button Font Family",
-          "default": "Helvetica Neue"
-      },
-      {
-          "type": "text",
-          "id": "hero_button_font_size",
-          "label": "Hero Button Font Size",
-          "default": "18px"
       }
     ]
   },
@@ -132,7 +120,7 @@
       },
       {
         "type": "text",
-        "id": "mobile_pdp_producte_size",
+        "id": "mobile_pdp_product_size",
         "default": "20px",
         "label": "Mobile Product Title Font Size"
       }    
