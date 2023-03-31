@@ -406,7 +406,7 @@
               </div>
             </noscript>
           {%- when 'custom_item_number' -%}
-            {%- if product.metafields['pdp']['item_number'] != blank -%}
+            {%- if block.settings.show_custom_item_number == true and product.metafields['pdp']['item_number'] != blank -%}
               <div class="flwr_item_number">
                 <p> Item Number: {{ product.metafields['pdp']['item_number'] }} </p>
               </div>
@@ -744,7 +744,12 @@
       "name": "Custom Item Number Field",
       "limit": 1,
       "settings": [
-        
+        {
+          "type": "checkbox",
+          "id": "show_custom_item_number",
+          "default": true,
+          "label": "Show Custom Item Number?"          
+        }
       ]
     },
     {
