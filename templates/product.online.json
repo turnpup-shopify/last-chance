@@ -34,6 +34,11 @@
           "settings": {
           }
         },
+        "6e3cb80f-7395-4806-8a51-8eb62abc629e": {
+          "type": "custom_item_number",
+          "settings": {
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -102,6 +107,7 @@
         "variant_picker",
         "caption",
         "description",
+        "6e3cb80f-7395-4806-8a51-8eb62abc629e",
         "price",
         "quantity_selector",
         "buy_buttons",
