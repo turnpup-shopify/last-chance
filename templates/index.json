@@ -453,7 +453,7 @@
             "line_height_text": "1.4",
             "letter_spacing": "Normal",
             "text_width": "100%",
-            "mobile_text_width": "90%",
+            "mobile_text_width": "100%",
             "text_padding_left": "0px",
             "text_padding_bottom": "0px",
             "is_own_line": true,
