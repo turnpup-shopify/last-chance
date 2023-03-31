@@ -123,7 +123,19 @@
         "id": "mobile_pdp_product_size",
         "default": "20px",
         "label": "Mobile Product Title Font Size"
-      }    
+      },
+      {
+        "type": "text",
+        "id": "desktop_pdp_desc_size",
+        "default": "30px",
+        "label": "Desktop Product Description Font Size"
+      },
+      {
+        "type": "text",
+        "id": "mobile_pdp_desc_size",
+        "default": "20px",
+        "label": "Mobile Product Description Font Size"
+      }       
     ]
   },
   {
