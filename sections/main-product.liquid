@@ -411,6 +411,13 @@
                 <p> Item Number: {{ product.metafields['pdp']['item_number'] }} </p>
               </div>
             {%- endif -%}
+            {% if template == "product" %} 
+                    <a href="https://htgtfurniture.com/collections?option=living-room">
+                      <button class="flwr_multicolumn_hero_button inverse" style="font-size: 12px">                      
+                        Browse All Products
+                      </button>
+                    </a>
+          {% endif %}
           {%- when 'buy_buttons' -%}
             <div {{ block.shopify_attributes }}>
               <product-form class="product-form">
