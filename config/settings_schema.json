@@ -35,8 +35,8 @@
         "id": "button_padding",
         "label": "Button Padding",
         "default": "10px 20px"
-    },
-    {
+      },
+      {
         "type": "text",
         "id": "hero_button_font_family",
         "label": "Button Font Family",
@@ -47,19 +47,19 @@
         "id": "hero_button_font_size",
         "label": "Button Font Size",
         "default": "18px"
-      }, 
+      },
       {
         "type": "text",
         "id": "hero_button_font_weight",
         "label": "Button Font Weight",
         "default": "400"
-      },        
+      },
       {
-          "type": "text",
-          "id": "button_border_radius",
-          "label": "Button Border Radius",
-          "default": "0px",
-          "info": "0px would be square corners, 4px would be slightly rounded, 20px would be a lot more rounded."
+        "type": "text",
+        "id": "button_border_radius",
+        "label": "Button Border Radius",
+        "default": "0px",
+        "info": "0px would be square corners, 4px would be slightly rounded, 20px would be a lot more rounded."
       },
       {
         "type": "color",
@@ -82,7 +82,7 @@
       {
         "type": "color",
         "id": "button_border_color_hover",
-        "label": "HOVER: Button Border/Text Color",
+        "label": "HOVER: Button Border\/Text Color",
         "default": "#ffffff"
       },
       {
@@ -92,16 +92,16 @@
         "default": "#000000"
       },
       {
-          "type": "color",
-          "id": "button_text_color_hover",
-          "label": "HOVER: Button Text Color",
-          "default": "#ffffff"
+        "type": "color",
+        "id": "button_text_color_hover",
+        "label": "HOVER: Button Text Color",
+        "default": "#ffffff"
       },
       {
-          "type": "text",
-          "id": "hero_button_padding",
-          "label": "Hero Button Padding",
-          "default": "20px 10px 20px"
+        "type": "text",
+        "id": "hero_button_padding",
+        "label": "Hero Button Padding",
+        "default": "20px 10px 20px"
       }
     ]
   },
@@ -135,7 +135,7 @@
         "id": "mobile_pdp_desc_size",
         "default": "12px",
         "label": "Mobile Product Description Font Size"
-      }       
+      }
     ]
   },
   {
