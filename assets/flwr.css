@@ -7,6 +7,9 @@ body {
 .product__title h1 {
   font-size: var(--desktop_product_title_size);
 }
+.product__description p {
+  font-size: var(--desktop_pdp_desc_size);
+}
 .flwr_multicolumn_hero_button {
   padding: var(--hero_button_padding);
   border: 1px solid var(--button_border_color);
@@ -282,5 +285,8 @@ body {
     }
     .product__title h1 {
       font-size: var(--mobile_product_title_size);
+    }
+    .product__description p {
+      font-size: var(--mobile_pdp_desc_size);
     }
 }
