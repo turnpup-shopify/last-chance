@@ -238,7 +238,7 @@
             "link": "shopify:\/\/collections\/online-art",
             "is_hero_button": true,
             "link_label_two": "All Products",
-            "link_two": "shopify:\/\/collections\/all",
+            "link_two": "https:\/\/htgtfurniture.com\/collections?option=living-room",
             "is_hero_button_two": true,
             "button_is_white_border_two": false,
             "space_between_buttons": 8,
