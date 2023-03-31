@@ -5,7 +5,7 @@ body {
   position: relative
 }
 .product__title h1 {
-  font-size: {{ settings.pdp_product_title_size }};
+  font-size: var(--desktop_product_title_size);
 }
 .flwr_multicolumn_hero_button {
   padding: var(--hero_button_padding);
@@ -281,6 +281,6 @@ body {
         max-width: 100%;
     }
     .product__title h1 {
-      font-size: {{ settings.mobile_pdp_product_title_size }};
+      font-size: var(--mobile_product_title_size);
     }
 }
