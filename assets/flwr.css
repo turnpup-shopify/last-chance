@@ -285,6 +285,7 @@ body {
     }
     .product__title h1 {
       font-size: var(--mobile_product_title_size);
+      font-weight: 700;
     }
     .product__description p, .product__property, .flwr_item_number {
       font-size: var(--mobile_pdp_desc_size);

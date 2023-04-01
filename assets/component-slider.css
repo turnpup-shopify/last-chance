@@ -309,6 +309,7 @@ slider-component.slider-component-full-width {
   align-items: center;
   justify-content: center;
   margin-bottom: 2rem;
+  /* flwr market */
 }
 
 @media screen and (min-width: 990px) {
