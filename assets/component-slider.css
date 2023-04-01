@@ -308,6 +308,7 @@ slider-component.slider-component-full-width {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 2rem;
 }
 
 @media screen and (min-width: 990px) {
