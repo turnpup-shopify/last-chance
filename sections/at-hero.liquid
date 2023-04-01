@@ -199,6 +199,9 @@
             #Slide-{{ section.id }}-{{ forloop.index }} .flwr_multicolumn_hero_button {           	 
               margin-right: {{ block.settings.space_between_buttons }}px;
             }
+            #Slide-{{ section.id }}-{{ forloop.index }} .flwr_multicolumn_hero_button:first-child {           	 
+              margin-bottom: 8px;
+            }
             @media screen and (max-width: 749px) {
               #Slide-{{ section.id }}-{{ forloop.index }} {           
                 flex: 1 0 100%;
