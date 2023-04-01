@@ -31,7 +31,7 @@
       {% endfor %}
       <ul class="grid product-grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down" role="list">
         {% for recommendation in recommendations.products %}
-          {% if recommendation.tags contains "ONLINE" %}
+          {% if recommendation.tags contains "Online" %}
             <li class="grid__item">
               {% render 'card-product',
                 card_product: recommendation,
