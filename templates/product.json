@@ -147,7 +147,7 @@
             "font_family_text": "Helvetica",
             "font_weight_text": "600",
             "line_height_text": "1.2",
-            "letter_spacing": "3px",
+            "letter_spacing": "normal",
             "text_width": "100%",
             "mobile_text_width": "90%",
             "text_padding_left": "0px",
