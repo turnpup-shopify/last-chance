@@ -184,10 +184,10 @@
         "e6c633e2-63ab-4d88-bcea-e9aa7fef2689": {
           "type": "text",
           "settings": {
-            "block_text": "(949) 515-9484",
+            "block_text": "<a>(949) 515-9484<\/a>",
             "block_font_size": "24px",
             "mobile_block_font_size": "16px",
-            "block_font_color": "#a4b7fb",
+            "block_font_color": "#4f4f51",
             "font_family_text": "Helvetica",
             "font_weight_text": "800",
             "line_height_text": "1.2",
