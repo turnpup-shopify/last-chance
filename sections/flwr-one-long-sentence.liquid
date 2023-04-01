@@ -6,16 +6,24 @@
         <div class="block_container_one_sentence">
           <p class="one-long-sentence-subtitle"> {{ section.settings.subtitle }} </p>
         
-         {% for block in section.blocks %}
-          
+         {% for block in section.blocks %}          
             {% if block.settings.is_own_line %}
               {% if block.settings.underline_animation %}<p style="margin-bottom:{{ block.settings.text_padding_bottom }};"><span id="block-{{ block.id }}" class="underline_animation">
               {% else %}<p id="block-{{ block.id }}" style="margin-bottom:{{ block.settings.text_padding_bottom }};">
-          {% endif %}{% if block.settings.block_text != blank %}{{block.settings.block_text}}{% endif %}</span></p>
+              {% endif %}
+            {% if block.settings.block_text != blank %}
+              {{block.settings.block_text}}
+            {% endif %}</span></p>
             {% else %}
-              {% if block.settings.underline_animation %}<span id="block-{{ block.id }}" class="underline_animation" style="margin-bottom:{{ block.settings.text_padding_bottom }};">
-              {% else %}<span id="block-{{ block.id }}" style="margin-bottom:{{ block.settings.text_padding_bottom }};">
-              {% endif %}{% if block.settings.block_text != blank %}{{block.settings.block_text}}{% endif %}</span>
+              {% if block.settings.underline_animation %}
+                <span id="block-{{ block.id }}" class="underline_animation" style="margin-bottom:{{ block.settings.text_padding_bottom }};">
+              {% else %}
+                <span id="block-{{ block.id }}" style="margin-bottom:{{ block.settings.text_padding_bottom }};">
+              {% endif %}
+              {% if block.settings.block_text != blank %}
+                {{block.settings.block_text}}
+              {% endif %}
+                </span>
             {% endif %}
             <style>
               #block-{{ block.id }} {
@@ -27,7 +35,11 @@
                 font-family:{{block.settings.font_family_text}};
                 letter-spacing: {{ block.settings.letter_spacing }};
                 width: {{ block.settings.text_width }};
-                margin: 0;
+                {% if section.settings.alignment %}
+                  margin: 0 auto;
+                {% else %}
+                  margin: 0;
+                {% endif %}
                 position: relative;
                 z-index: 2;
               }               
