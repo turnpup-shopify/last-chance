@@ -492,7 +492,7 @@
     "4b5ec4ff-e42f-4095-9b8e-e11e4b0cc0e6": {
       "type": "featured-collection",
       "settings": {
-        "title": "MOST POPULAR ART",
+        "title": "Most Popular Art",
         "heading_size": "h1",
         "heading_font_size": "24px",
         "heading_font_family": "Helvetica Neue",
@@ -585,7 +585,7 @@
         "908c7377-ed50-42fe-8baa-eda972fb2dc5"
       ],
       "settings": {
-        "heading": "EXPLORE OUR PRODUCTS",
+        "heading": "Explore Our Products",
         "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "column",
