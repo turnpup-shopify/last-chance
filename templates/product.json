@@ -142,7 +142,7 @@
           "settings": {
             "block_text": "Design Consultations",
             "block_font_size": "24px",
-            "mobile_block_font_size": "16px",
+            "mobile_block_font_size": "20px",
             "block_font_color": "#121212",
             "font_family_text": "Helvetica",
             "font_weight_text": "600",
@@ -164,7 +164,7 @@
           "settings": {
             "block_text": "We offer personalized service every step of the way, from ordering to delivery. We can help you think through your space, find specific pieces that fit the style of your home, and customize fabrics. We can work off photos and frequently do home visits in newport beach, costa mesa, and irvine.",
             "block_font_size": "24px",
-            "mobile_block_font_size": "16px",
+            "mobile_block_font_size": "20px",
             "block_font_color": "#121212",
             "font_family_text": "Helvetica",
             "font_weight_text": "400",
@@ -186,7 +186,7 @@
           "settings": {
             "block_text": "<a>(949) 515-9484<\/a>",
             "block_font_size": "24px",
-            "mobile_block_font_size": "16px",
+            "mobile_block_font_size": "20px",
             "block_font_color": "#4f4f51",
             "font_family_text": "Helvetica",
             "font_weight_text": "800",

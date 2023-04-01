@@ -7,6 +7,7 @@
     "hero_button_padding": "15px 30px",
     "pdp_product_title_size": "26px",
     "desktop_pdp_desc_size": "14px",
+    "mobile_pdp_desc_size": "12px",
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#fa6d12",
     "gradient_accent_1": "",
