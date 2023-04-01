@@ -218,7 +218,7 @@
         "background_color": "#e1e1e1",
         "background_opacity": "0.2",
         "max_width": 100,
-        "mobile_max_width": 90,
+        "mobile_max_width": 100,
         "use_page_width": true,
         "margintop": 100,
         "marginbottom": 100,
