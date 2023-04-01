@@ -12,7 +12,7 @@
         "background_opacity": "0.2",
         "max_width": 80,
         "mobile_max_width": 90,
-        "margintop": 140,
+        "margintop": 130,
         "marginbottom": 50,
         "alignment": "left",
         "turnpup_bottom_border_color": "rgba(0,0,0,0)",
@@ -48,7 +48,7 @@
         "filter_type": "vertical",
         "enable_sorting": false,
         "columns_mobile": "2",
-        "padding_top": 24,
+        "padding_top": 12,
         "padding_bottom": 36
       }
     },
