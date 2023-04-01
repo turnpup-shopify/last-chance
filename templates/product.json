@@ -186,7 +186,7 @@
           "settings": {
             "block_text": "<a>(949) 515-9484<\/a>",
             "block_font_size": "24px",
-            "mobile_block_font_size": "20px",
+            "mobile_block_font_size": "18px",
             "block_font_color": "#4f4f51",
             "font_family_text": "Helvetica",
             "font_weight_text": "800",
