@@ -234,7 +234,7 @@
             "description_font_weight": "600",
             "description_margin_top": "0px",
             "description_margin_bottom": "20px",
-            "link_label": "Available Online",
+            "link_label": "Online Products",
             "link": "shopify:\/\/collections\/online-art",
             "is_hero_button": true,
             "link_label_two": "All Products",
