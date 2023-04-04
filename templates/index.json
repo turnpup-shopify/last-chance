@@ -422,7 +422,7 @@
         "67981e8b-fe82-43f1-8e80-a2e8d1dcdf8b": {
           "type": "text",
           "settings": {
-            "block_text": "Large furniture pieces and some other items viewed on this site are only available for purchase through our physical store location. See \"All Products\".",
+            "block_text": "",
             "block_font_size": "24px",
             "mobile_block_font_size": "18px",
             "block_font_color": "#121212",
