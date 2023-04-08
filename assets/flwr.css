@@ -7,6 +7,11 @@ body {
 .product__title h1 {
   font-size: var(--desktop_product_title_size);
 }
+.header__menu-item.list-menu__item.link:hover + .header__submenu {
+  animation: animateMenuOpen var(--duration-default) ease;
+  animation-fill-mode: forwards;
+  z-index: 1;
+}
 .product__description p, .product__property, .flwr_item_number {
   font-size: var(--desktop_pdp_desc_size);
 }
