@@ -18,9 +18,11 @@ document.querySelectorAll('[id^="Details-"] summary').forEach((summary) => {
     event.currentTarget.setAttribute('aria-expanded', !event.currentTarget.closest('details').hasAttribute('open'));
   });
 
+  // flwr addition custom - start
   summary.addEventListener('mouseover', (event) => {
     event.currentTarget.setAttribute('aria-expanded', !event.currentTarget.closest('details').hasAttribute('open'));
   });
+  // flwr addition custom - end
 
   if (summary.closest('header-drawer')) return;
   summary.parentElement.addEventListener('keyup', onKeyUpEscape);
@@ -469,7 +471,7 @@ class ModalDialog extends HTMLElement {
     this.openedBy = opener;
     const popup = this.querySelector('.template-popup');
     document.body.classList.add('overflow-hidden');
-    this.setAttribute('open', '');
+    //this.setAttribute('open', '');
     if (popup) popup.loadContent();
     trapFocus(this, this.querySelector('[role="dialog"]'));
     window.pauseAllMedia();
