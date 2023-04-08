@@ -7,22 +7,6 @@ body {
 .product__title h1 {
   font-size: var(--desktop_product_title_size);
 }
-.list-menu__item:hover + .header__submenu {
-  animation: animateMenuOpen var(--duration-default) ease;
-  animation-fill-mode: forwards;
-  z-index: 1;
-}
-@keyframes animateMenuOpen {
-  0% {
-    opacity: 0;
-    transform: translateY(-1.5rem);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 .product__description p, .product__property, .flwr_item_number {
   font-size: var(--desktop_pdp_desc_size);
 }

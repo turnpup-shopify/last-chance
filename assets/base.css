@@ -2535,7 +2535,13 @@ details[open] > .header__icon--menu .icon-hamburger {
   opacity: 0;
   transform: translateY(-1.5rem);
 }
-
+/* flwr addition custom - start */
+.list-menu__item:hover + .header__submenu {
+  animation: animateMenuOpen var(--duration-default) ease;
+  animation-fill-mode: forwards;
+  z-index: 1;
+}
+/* flwr addition custom - end */
 details[open] > .header__submenu {
   animation: animateMenuOpen var(--duration-default) ease;
   animation-fill-mode: forwards;
