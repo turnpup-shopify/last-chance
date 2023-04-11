@@ -209,7 +209,7 @@
           "settings": {
             "image_border_radius": "0px",
             "mobile_image_border_radius": "0px",
-            "title": "A ONE-OF-A-KIND HOME STORE",
+            "title": "Store Closed April 11-17;  Open 4\/18",
             "title_font_size": "24px",
             "title_font_size_mobile": "24px",
             "title_font_family": "'Helvetica Neue'",
@@ -225,7 +225,7 @@
             "text_line_height": "1.3",
             "text_font_weight": "500",
             "subtitle_margin_top": "8px",
-            "description": "Store Closed: Closed April 11-17; Open 4\/18",
+            "description": "",
             "description_font_size": "16px",
             "description_font_size_mobile": "14px",
             "description_font_family": "'Helvetica'",
