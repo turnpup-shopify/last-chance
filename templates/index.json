@@ -477,7 +477,7 @@
         "subtitle_font_weight": "500",
         "subtitle_font_family": "'Helvetica Neue'",
         "subtitle_font_color": "#121212",
-        "background_color": "#dfe6fc",
+        "background_color": "#ecf0fc",
         "background_opacity": "1",
         "max_width": 100,
         "mobile_max_width": 90,
@@ -541,7 +541,7 @@
         "bc236382-f408-40f1-a22d-d66e51b51ef8"
       ],
       "settings": {
-        "module_background_color": "#dfe6fc",
+        "module_background_color": "#ecf0fc",
         "module_accent_color": "#000000",
         "quote_color": "#000000",
         "dots_unselected_color": "#ffffff",
