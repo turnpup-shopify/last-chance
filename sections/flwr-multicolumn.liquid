@@ -752,35 +752,28 @@
           "info": "Settings for the Title section."
         },
         {
-          "type": "header_picker",
-          "name": "Header Dropdown",
-          "limit": 1,
-          "settings": [
+          "type": "select",
+          "id": "picker_header_type",
+          "options": [
             {
-              "type": "select",
-              "id": "picker_type",
-              "options": [
-                {
-                  "value": "h1",
-                  "label": "h1"
-                },
-                {
-                  "value": "h2",
-                  "label": "h2"
-                },
-                {
-                  "value": "h3",
-                  "label": "h3"
-                },
-                {
-                  "value": "p",
-                  "label": "p"
-                }
-              ],
-              "default": "p",
-              "label": "Picker for header type"
+              "value": "h1",
+              "label": "h1"
+            },
+            {
+              "value": "h2",
+              "label": "h2"
+            },
+            {
+              "value": "h3",
+              "label": "h3"
+            },
+            {
+              "value": "p",
+              "label": "p"
             }
-          ]
+          ],
+          "default": "p",
+          "label": "Picker for header type"
         },
         {
           "type": "text",
