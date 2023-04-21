@@ -15,15 +15,9 @@ document.querySelectorAll('[id^="Details-"] summary').forEach((summary) => {
   }
 
   summary.addEventListener('click', (event) => {
+    console.log("global.js 18");
     event.currentTarget.setAttribute('aria-expanded', !event.currentTarget.closest('details').hasAttribute('open'));
   });
-
-  // flwr addition custom - start
-  summary.addEventListener('mouseover', (event) => {
-    event.currentTarget.setAttribute('aria-expanded', !event.currentTarget.closest('details').hasAttribute('open'));
-    console.log('just executed - flwr');
-  });
-  // flwr addition custom - end
 
   if (summary.closest('header-drawer')) return;
   summary.parentElement.addEventListener('keyup', onKeyUpEscape);
@@ -331,6 +325,7 @@ class MenuDrawer extends HTMLElement {
 
     if (detailsElement === this.mainDetailsToggle) {
       if(isOpen) event.preventDefault();
+      console.log("global.js 327");
       isOpen ? this.closeMenuDrawer(event, summaryElement) : this.openMenuDrawer(summaryElement);
     } else {
       setTimeout(() => {
@@ -346,6 +341,7 @@ class MenuDrawer extends HTMLElement {
     setTimeout(() => {
       this.mainDetailsToggle.classList.add('menu-opening');
     });
+    console.log("global.js 343");
     summaryElement.setAttribute('aria-expanded', true);
     trapFocus(this.mainDetailsToggle, summaryElement);
     document.body.classList.add(`overflow-hidden-${this.dataset.breakpoint}`);
@@ -472,6 +468,7 @@ class ModalDialog extends HTMLElement {
     this.openedBy = opener;
     const popup = this.querySelector('.template-popup');
     document.body.classList.add('overflow-hidden');
+    console.log('global 471');
     this.setAttribute('open', '');
     if (popup) popup.loadContent();
     trapFocus(this, this.querySelector('[role="dialog"]'));
