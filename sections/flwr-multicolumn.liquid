@@ -90,9 +90,9 @@
               {%- if block.settings.title != blank  or block.settings.text != blank or block.settings.description != blank -%}
                 <div class="multicolumn-card__info" style="max-width: {{ block.settings.text_max_width }};">
                   {%- if block.settings.title != blank -%}
-                    <h3>
+                    <{{ block.settings.picker_header_type }}>
                         {{ block.settings.title }}
-                    </h3>
+                    </{{ block.settings.picker_header_type }}>
                   {%- endif -%}
                   {%- if block.settings.text != blank -%}
                     <div class="rte text">
