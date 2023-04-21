@@ -90,7 +90,7 @@
               {%- if block.settings.title != blank  or block.settings.text != blank or block.settings.description != blank -%}
                 <div class="multicolumn-card__info" style="max-width: {{ block.settings.text_max_width }};">
                   {%- if block.settings.title != blank -%}
-                    <{{ block.settings.picker_header_type }}>
+                    <{{ block.settings.picker_header_type }} class="flwr-multi-first">
                         {{ block.settings.title }}
                     </{{ block.settings.picker_header_type }}>
                   {%- endif -%}
@@ -168,7 +168,7 @@
             {% if block.settings.remove_bottom_padding %} padding-bottom: 0; {% else %} padding-bottom: 3.2rem; {% endif %}
             {% if block.settings.remove_top_padding %} padding-top: 0; {% else %} padding-top: 1.6rem; {% endif %}
           }
-          #Slide-{{ section.id }}-{{ forloop.index }} h3 {  
+          #Slide-{{ section.id }}-{{ forloop.index }} .flwr-multi-first  {  
             font-size: {{ block.settings.title_font_size }};
             color: {{ block.settings.title_font_color }}; 
             font-family: {{ block.settings.title_font_family }};
@@ -213,7 +213,7 @@
             #Slide-{{ section.id }}-{{ forloop.index }} .multicolumn-card__info {
               margin-top: {{ block.settings.top_margin_column_mobile | default: "0px" }};
             }
-            #Slide-{{ section.id }}-{{ forloop.index }} h3 {  
+            #Slide-{{ section.id }}-{{ forloop.index }} .flwr-multi-first {  
               font-size: {{ block.settings.title_font_size_mobile }};
             }
             #Slide-{{ section.id }}-{{ forloop.index }} .text {  
