@@ -119,7 +119,7 @@
                     {%- for link in use_menu.links -%}
                       <li>
                         {%- if link.links != blank -%}
-                          <details id="Details-menu-drawer-menu-item-{{ forloop.index }}">
+                          <details id="Details-menu-drawer-menu-item-{{ forloop.index }}" class="top_lvl_dropdown">
                             <summary class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.child_active %} menu-drawer__menu-item--active{% endif %}">
                               {{ link.title | escape }}
                               {% render 'icon-arrow' %}
@@ -699,7 +699,7 @@
 </script>
 {% comment %} flwr - START {% endcomment %}
 <script>
-  let items = document.querySelector(".header__inline-menu").querySelectorAll("details");
+  let items = document.querySelector(".header__inline-menu").querySelectorAll("details.top_lvl_dropdown");
   console.log(items)
   items.forEach(item => {
     item.addEventListener("mouseover", () => {
