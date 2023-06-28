@@ -422,58 +422,12 @@
             "underline_animation": false,
             "underline_animation_color": "#f6b700"
           }
-        },
-        "67981e8b-fe82-43f1-8e80-a2e8d1dcdf8b": {
-          "type": "text",
-          "settings": {
-            "block_text": "",
-            "block_font_size": "24px",
-            "mobile_block_font_size": "18px",
-            "block_font_color": "#121212",
-            "font_family_text": "\"Helvetica Neue\"",
-            "font_weight_text": "300",
-            "line_height_text": "1.4",
-            "letter_spacing": "normal",
-            "text_width": "100%",
-            "mobile_text_width": "100%",
-            "text_padding_left": "0px",
-            "text_padding_bottom": "0.6em",
-            "is_own_line": true,
-            "text_has_wavy_animation": false,
-            "wavy_animation_color": "#f6b700",
-            "underline_animation": false,
-            "underline_animation_color": "#f6b700"
-          }
-        },
-        "3f0e0b8f-a938-47e0-af57-e74eca18cf65": {
-          "type": "text",
-          "settings": {
-            "block_text": "",
-            "block_font_size": "24px",
-            "mobile_block_font_size": "18px",
-            "block_font_color": "#121212",
-            "font_family_text": "\"Helvetica Neue\"",
-            "font_weight_text": "300",
-            "line_height_text": "1.4",
-            "letter_spacing": "Normal",
-            "text_width": "100%",
-            "mobile_text_width": "100%",
-            "text_padding_left": "0px",
-            "text_padding_bottom": "0.6em",
-            "is_own_line": true,
-            "text_has_wavy_animation": false,
-            "wavy_animation_color": "#f6b700",
-            "underline_animation": false,
-            "underline_animation_color": "#f6b700"
-          }
         }
       },
       "block_order": [
         "1651619589fa9e48ce-0",
         "83f6a62a-f740-49fc-8911-a75e462dd9b5",
-        "d928ec0f-99fc-412e-bbbe-f80a0c183b95",
-        "67981e8b-fe82-43f1-8e80-a2e8d1dcdf8b",
-        "3f0e0b8f-a938-47e0-af57-e74eca18cf65"
+        "d928ec0f-99fc-412e-bbbe-f80a0c183b95"
       ],
       "settings": {
         "subtitle": "Furniture, Art, Decor, Rugs, and more...",
