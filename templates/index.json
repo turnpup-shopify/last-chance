@@ -213,7 +213,7 @@
             "image_border_radius": "0px",
             "mobile_image_border_radius": "0px",
             "picker_header_type": "h1",
-            "title": "One-of-a-Kind Art & Furniture Store in Costa Mesa",
+            "title": "One-of-a-Kind Art\/Furniture Store in Costa Mesa",
             "title_font_size": "30px",
             "title_font_size_mobile": "24px",
             "title_font_family": "'Helvetica Neue'",
@@ -221,7 +221,7 @@
             "title_line_height": "1.2",
             "title_font_weight": "500",
             "title_margin_top": "8px",
-            "text": "Shop Online <br> Our Store is Closed - Aug 14th - 25th  (vacation)",
+            "text": "Get Your \"Designer Look\" today with Lower Pricing",
             "text_font_size": "25px",
             "text_font_size_mobile": "16px",
             "text_font_family": "'Helvetica'",
@@ -241,7 +241,7 @@
             "link_label": "Shop Digital Collection (available online)",
             "link": "shopify:\/\/collections\/online-art",
             "is_hero_button": true,
-            "link_label_two": "Shop our In-Person Collection",
+            "link_label_two": "Shop our Store Collection (from store only)",
             "link_two": "https:\/\/htgtfurniture.com\/collections?option=living-room",
             "is_hero_button_two": true,
             "button_is_white_border_two": false,
@@ -595,7 +595,7 @@
       "type": "apps",
       "blocks": {
         "b517196e-8aff-4bdb-8f59-f19a1e82a503": {
-          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "heading_size": 20,
             "feed_width": 100,
