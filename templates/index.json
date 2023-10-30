@@ -213,7 +213,7 @@
             "image_border_radius": "0px",
             "mobile_image_border_radius": "0px",
             "picker_header_type": "h1",
-            "title": "OPEN 10\/30: (on vacation)",
+            "title": "Visit Today for Furniture, Art & Deorations",
             "title_font_size": "30px",
             "title_font_size_mobile": "24px",
             "title_font_family": "'Helvetica Neue'",
@@ -597,8 +597,6 @@
         "b517196e-8aff-4bdb-8f59-f19a1e82a503": {
           "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
-            "heading_size": 20,
-            "feed_width": 100,
             "html_area": ""
           }
         }
