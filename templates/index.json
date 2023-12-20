@@ -213,7 +213,7 @@
             "image_border_radius": "0px",
             "mobile_image_border_radius": "0px",
             "picker_header_type": "h1",
-            "title": "Today's \"Designer Look\" with Lower Pricing",
+            "title": "CLOSED 12\/24 thru 1\/2",
             "title_font_size": "30px",
             "title_font_size_mobile": "24px",
             "title_font_family": "'Helvetica Neue'",
@@ -221,7 +221,7 @@
             "title_line_height": "1.2",
             "title_font_weight": "500",
             "title_margin_top": "8px",
-            "text": "We are open Mon-Fri, 11-4.",
+            "text": "Available by appointment over this period; 949 515-9484",
             "text_font_size": "25px",
             "text_font_size_mobile": "16px",
             "text_font_family": "'Helvetica'",
@@ -597,6 +597,9 @@
         "b517196e-8aff-4bdb-8f59-f19a1e82a503": {
           "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
             "html_area": ""
           }
         }
