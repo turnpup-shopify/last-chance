@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "16617360204f2f6219": {
@@ -6,7 +15,7 @@
         "16617360199623ac75-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/htgt-1-8.jpg",
+            "image": "shopify://shop_images/htgt-1-8.jpg",
             "image_border_radius": "0px",
             "mobile_image_border_radius": "0px",
             "picker_header_type": "p",
@@ -87,10 +96,10 @@
             "description_margin_top": "0px",
             "description_margin_bottom": "0px",
             "link_label": "Shop Online",
-            "link": "shopify:\/\/collections\/online-art",
+            "link": "shopify://collections/online-art",
             "is_hero_button": true,
             "link_label_two": "Shop In-Store",
-            "link_two": "https:\/\/htgtfurniture.com\/collections?option=living-room",
+            "link_two": "https://htgtfurniture.com/collections?option=living-room",
             "is_hero_button_two": true,
             "button_is_white_border_two": false,
             "space_between_buttons": 8,
@@ -158,7 +167,7 @@
         "template--15126395322575__403c9887-42c2-4cd2-97f6-b964f61f1b2d-16770180532dcfb176-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/70562322880__4F13A666-DDE9-4BB9-9D15-6A05AB37FCCB.jpg",
+            "image": "shopify://shop_images/70562322880__4F13A666-DDE9-4BB9-9D15-6A05AB37FCCB.jpg",
             "image_border_radius": "0px",
             "mobile_image_border_radius": "0px",
             "picker_header_type": "p",
@@ -239,10 +248,10 @@
             "description_margin_top": "10px",
             "description_margin_bottom": "20px",
             "link_label": "Shop Digital Collection (available online)",
-            "link": "shopify:\/\/collections\/online-art",
+            "link": "shopify://collections/online-art",
             "is_hero_button": true,
             "link_label_two": "Shop our Store Collection (from store only)",
-            "link_two": "https:\/\/htgtfurniture.com\/collections?option=living-room",
+            "link_two": "https://htgtfurniture.com/collections?option=living-room",
             "is_hero_button_two": true,
             "button_is_white_border_two": false,
             "space_between_buttons": 8,
@@ -317,7 +326,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "Transitional, contemporary and coastal, quality furniture, art and accents at best value pricing.  Local family owned and operated, one-of-a-kind furniture store situated within renovated warehouse\/hanger in Costa Mesa.  Visit our Promotions page to sign up for newsletters and special offers. If you have a special request or hard to find item, let us know via the Contact Us page.",
+            "text": "Transitional, contemporary and coastal, quality furniture, art and accents at best value pricing.  Local family owned and operated, one-of-a-kind furniture store situated within renovated warehouse/hanger in Costa Mesa.  Visit our Promotions page to sign up for newsletters and special offers. If you have a special request or hard to find item, let us know via the Contact Us page.",
             "text_style": "body"
           }
         },
@@ -325,10 +334,10 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Buy Online",
-            "button_link_1": "shopify:\/\/collections\/online-side-tables",
+            "button_link_1": "shopify://collections/unique-side-tables",
             "button_style_secondary_1": true,
             "button_label_2": "Get Directions",
-            "button_link_2": "https:\/\/www.google.com\/maps\/dir\/\/HtgT+Furniture,+1644+Superior+Ave,+Costa+Mesa,+CA+92627\/@33.6342172,-117.9275104,17z\/data=!4m8!4m7!1m0!1m5!1m1!1s0x80dd207560f042f3:0x8a21d99ea602e82a!2m2!1d-117.9253217!2d33.6342128",
+            "button_link_2": "https://www.google.com/maps/dir//HtgT+Furniture,+1644+Superior+Ave,+Costa+Mesa,+CA+92627/@33.6342172,-117.9275104,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80dd207560f042f3:0x8a21d99ea602e82a!2m2!1d-117.9253217!2d33.6342128",
             "button_style_secondary_2": false
           }
         }
@@ -340,7 +349,7 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/htgt-1-3.jpg",
+        "image": "shopify://shop_images/htgt-1-3.jpg",
         "dont_lazy_load": false,
         "image_overlay_opacity": 40,
         "image_height": "medium",
@@ -404,7 +413,7 @@
         "d928ec0f-99fc-412e-bbbe-f80a0c183b95": {
           "type": "text",
           "settings": {
-            "block_text": "Find exquisitely curated transitional and contemporary furniture, art and home decorations at best value pricing. This coastal themed store located in a renovated warehouse\/hanger in Costa Mesa is locally owned and operated.",
+            "block_text": "Find exquisitely curated transitional and contemporary furniture, art and home decorations at best value pricing. This coastal themed store located in a renovated warehouse/hanger in Costa Mesa is locally owned and operated.",
             "block_font_size": "24px",
             "mobile_block_font_size": "18px",
             "block_font_color": "#333333",
@@ -514,8 +523,8 @@
         "a1b8d478-c17d-4abe-b1b7-78a06eefa774": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CIMP-12E_ROM_1-1.jpg",
-            "link": "https:\/\/htgtfurniture.com\/collections?option=living-room",
+            "image": "shopify://shop_images/CIMP-12E_ROM_1-1.jpg",
+            "link": "https://htgtfurniture.com/collections?option=living-room",
             "title": "Furniture",
             "image_padding": true
           }
@@ -530,7 +539,7 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/CKEN-295N-671_ROM_1.webp",
+            "image": "shopify://shop_images/CKEN-295N-671_ROM_1.webp",
             "link": "",
             "title": "",
             "image_padding": false
@@ -585,7 +594,7 @@
     "bfdff81e-e559-4632-99fc-f4cd14c6b2b8": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"page-width\"><h2 style=\"font-size: 24px; font-family: 'Helvetica Neue';font-weight: 400;\"> @htgthome <\/h2><\/div>",
+        "custom_liquid": "<div class=\"page-width\"><h2 style=\"font-size: 24px; font-family: 'Helvetica Neue';font-weight: 400;\"> @htgthome </h2></div>",
         "color_scheme": "background-1",
         "padding_top": 12,
         "padding_bottom": 0
@@ -595,7 +604,7 @@
       "type": "apps",
       "blocks": {
         "b517196e-8aff-4bdb-8f59-f19a1e82a503": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "title": "",
             "title_color": "",
@@ -624,13 +633,12 @@
         "16545648716a37a12c-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Be the first to know about new products, in-store events, design consultations and exclusive promotions.<\/p>"
+            "text": "<p>Be the first to know about new products, in-store events, design consultations and exclusive promotions.</p>"
           }
         },
         "16545648716a37a12c-2": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
